@@ -1,0 +1,306 @@
+
+/* ul li {
+	display: inline;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: left;
+	margin: 0, auto;
+}
+
+body li{
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0; */ 
+
+body{
+	background-color: sandybrown;
+	color:#555555;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	/* Same as above */
+	font: normal 16px Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: f4f4f4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.5em;
+	
+}
+
+h1{
+	text-align: center;	
+	align-items: center;
+	background: yellow;
+}
+
+h2{
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+p{
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+
+}
+.oxygen{
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	flex-wrap: wrap; 
+	background-color: green;
+}
+.yellow{
+	background-color: yellow;
+}
+
+.red{
+	background-color: red;
+}
+
+	.lion-container{
+		display: flex;
+		justify-content: center;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+
+	.text-msg-box{
+		display: flex;
+		flex-direction: column;;
+		justify-content: center;
+		justify-content: space-evenly;
+		flex-wrap: wrap;		
+	}
+.msg-txt-contact{
+	display: flex;
+		justify-content: center;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+}
+
+	a:active{
+		color: white;
+	}
+
+	form{
+		text-align: left;	
+		align-items: baseline;
+		background-color: none;
+	
+	}
+
+	.africa-image{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+		background-color: gold;
+	} 
+	.africa-map{
+		width: 400px;
+		height: 428px;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.lion-contact{
+		display: flex;
+		justify-content: center;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+
+	}
+
+	.test {
+		width: 600px;
+		height: 300px; 
+    border:2px solid #000000;
+		word-break: break-all;
+	}
+p{
+	margin: left 10px right 10px;
+	padding: center;
+}
+.hero-image {
+  background-image: url("https://cdn2.omidoo.com/sites/default/files/imagecache/full_width/images/bydate/201511/intenselion.jpg");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image1 {
+  background-image: url("https://i.imgur.com/94hfDIP.jpg");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image2 {
+  background-image: url("https://i.imgur.com/BlNAi1Q.png");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image3 {
+  background-image: url("https://i.imgur.com/BlNAi1Q.png");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lion-image1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKUDqljZZxasGfszL_y-hrhwD1zNNtell9JOzgN7Imt2vF6UDg");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lion-image2 {
+  background-image: url("https://i.imgur.com/BlNAi1Q.png");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lion-image3 {
+  background-image: url("https://ih1.redbubble.net/image.453213315.0260/mp,550x550,matte,ffffff,t.3.jpg");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lion-image4 {
+  background-image: url("https://i.ytimg.com/vi/HMvXNK6djE0/hqdefault.jpg");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lion-image5 {
+  background-image: url("http://en.mercopress.com/data/cache/noticias/53529/0x0/a3.png");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lion-image6 {
+  background-image: url("https://thenypost.files.wordpress.com/2018/09/first-test-tube-lion2.jpg?quality=90&strip=all&w=618&h=410&crop=1");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.lion-cub {
+  background-image: url("https://theroaringearth-gazermedia.netdna-ssl.com/wp-content/uploads/2015/12/lion-and-cub.jpg");
+	background-color: #cccccc;
+	width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lion-cubs1 {
+  background-image: url("http://i.imgur.com/wmyq2nk.jpg");
+	background-color: #cccccc;
+	width: 600px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	position: relative;
+}
+
+.msgme-box{
+	display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+}
+
+.lion-image7 {
+  background-image: url("http://en.mercopress.com/data/cache/noticias/53529/0x0/a3.png");
+	background-color: #cccccc;
+	width: 620px;
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.lion-image8 {
+  background-image: url("http://en.mercopress.com/data/cache/noticias/53529/0x0/a3.png");
+	background-color: #cccccc;
+	width: 600px;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.landing-page{
+	display: flex;
+	flex-direction: column;;
+	justify-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;		
+}
+h3{
+display: right;
+}
+
+.lion-container1{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
