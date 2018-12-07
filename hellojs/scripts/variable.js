@@ -20,8 +20,8 @@ console.log(var2);
 console.log(var3);
 console.log(var4);
 
-var var5 = 1000;
-let var5;
+//var var5 = 1000;
+l//et var5;
 
 
 

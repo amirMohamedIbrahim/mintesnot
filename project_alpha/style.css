@@ -1,17 +1,4 @@
 
-/* ul li {
-	display: inline;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 20px;
-	text-align: left;
-	margin: 0, auto;
-}
-
-body li{
-	display: inline;
-	list-style-type: none;
-	margin: 0;
-	padding: 0; */ 
 
 body{
 	background-color: sandybrown;
@@ -27,11 +14,11 @@ header{
   background-color: f4f4f4;
   font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 1.5em;
-	
+
 }
 
 h1{
-	text-align: center;	
+	text-align: center;
 	align-items: center;
 	background: yellow;
 }
@@ -51,7 +38,7 @@ p{
 	display: flex;
 	justify-content: space-around;
 	justify-content: center;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
 	background-color: green;
 }
 .yellow{
@@ -74,7 +61,7 @@ p{
 		flex-direction: column;;
 		justify-content: center;
 		justify-content: space-evenly;
-		flex-wrap: wrap;		
+		flex-wrap: wrap;
 	}
 .msg-txt-contact{
 	display: flex;
@@ -88,10 +75,10 @@ p{
 	}
 
 	form{
-		text-align: left;	
+		text-align: left;
 		align-items: baseline;
 		background-color: none;
-	
+
 	}
 
 	.africa-image{
@@ -100,7 +87,7 @@ p{
 		justify-content: center;
 		flex-wrap: wrap;
 		background-color: gold;
-	} 
+	}
 	.africa-map{
 		width: 400px;
 		height: 428px;
@@ -119,7 +106,7 @@ p{
 
 	.test {
 		width: 600px;
-		height: 300px; 
+		height: 300px;
     border:2px solid #000000;
 		word-break: break-all;
 	}
@@ -292,7 +279,7 @@ p{
 	flex-direction: column;;
 	justify-content: center;
 	justify-content: space-evenly;
-	flex-wrap: wrap;		
+	flex-wrap: wrap;
 }
 h3{
 display: right;
@@ -304,3 +291,6 @@ display: right;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
+
+
+

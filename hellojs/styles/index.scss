@@ -1,0 +1,32 @@
+// variables
+
+$green:  rgb(0, 100, 0);
+
+body{
+  color: $green;
+}
+
+// mixins
+
+@mixin background() {
+  background-color: rgb(200,200,0)
+}
+
+body{
+  @include background();
+}
+
+// nesting
+
+main {
+  section {
+    font-size: 20px;
+
+    p{
+      font-weight: bold;
+    }
+  }
+}
+
+
+

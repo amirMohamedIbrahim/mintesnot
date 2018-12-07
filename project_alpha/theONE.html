@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="projstyle.css">
+
+
+  <link rel="stylesheet/scss" type="text/css" href="firstsass.scss">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.3/sass.min.js"></script>
+
+
+  <title>African Lion</title>
+
+</head>
+<body>
+    <h1> AFRICAN LIONS ARE ENDAGERED!</h1>
+
+    <h2> please log in below to find More Information!</h2>
+
+
+    <!-- <div>
+       <h3> <a class="nav-link" href="ProjectionLion.html"> Please click this Link</a> </h3>
+      </div> -->
+
+    <!-- <div class="container-fluid lion-container1">
+        <div class="lion-image7">
+        </div>
+    </div> -->
+      <!-- c -->
+
+      <!-- <div class="imgcontainer">
+        <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      </div> -->
+
+      <form id="form1" method="post" action="" onsubmit="return check_form();">
+
+      <div id ="containerW">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="lemma" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" passwd="123456" required>
+
+        <button type="submit">Login</button>
+        <!-- <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label> -->
+      </div>
+
+      <!-- <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div> -->
+
+    </form>
+    <script type="text/javascript">
+      var user = [{name: 'lemma', passwd: '123456'},];
+
+      function check_form()
+      {
+        var name=document.getElementById("name").value;
+         var pass=document.getElementById("pass").value;
+
+        users.forEach(function(user){
+          if(user.name == name && user.passwd == passwd)
+          {
+            location.href = "projectionLion.html"
+            // location.href = "projectionLion.html ?user=" + user.name;
+            // location.href = "home.html?user=" + user.passwd;
+
+          }
+        })
+
+        alert("Please Enter the Correct Username and Password");
+
+       return false;
+      }
+      </script>
+
+
+
+
+
+</body>
+</html>

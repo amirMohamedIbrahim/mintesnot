@@ -5,7 +5,8 @@
   "main": "variable.js",
   "dependencies": {},
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "sass": "^1.15.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
